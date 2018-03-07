@@ -1,0 +1,48 @@
+{
+	"pages": [
+		"pages/home/index/index",
+		"pages/store/index/index",
+		"pages/store/mapDetail/mapDetail",
+		"pages/mine/index/index"
+	],
+	"subPackages": [
+
+	],
+	"window": {
+		"navigationBarBackgroundColor": "#fff",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "绘本2号",
+		"navigationStyle": "default"
+	},
+	"tabBar": {
+		"list": [
+			{
+				"pagePath": "pages/home/index/index",
+				"text": "首页",
+				"iconPath": "sources/images/tabbar/home_nor.png",
+				"selectedIconPath": "sources/images/tabbar/home_sel.png"
+			},
+			{
+				"pagePath": "pages/store/index/index",
+				"text": "门店",
+				"iconPath": "sources/images/tabbar/store_nor.png",
+				"selectedIconPath": "sources/images/tabbar/store_sel.png"
+			},
+			{
+				"pagePath": "pages/mine/index/index",
+				"text": "我的",
+				"iconPath": "sources/images/tabbar/mine_nor.png",
+				"selectedIconPath": "sources/images/tabbar/mine_sel.png"
+			}
+		],
+		"color": "#d7dce1",
+		"selectedColor": "#6f7de8",
+		"borderStyle": "white",
+		"backgroundColor": "#fff"
+	},
+	"networkTimeout": {
+		"request": 10000,
+    "downloadFile": 10000
+	},
+	"debug": false
+}

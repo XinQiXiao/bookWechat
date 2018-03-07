@@ -1,0 +1,17 @@
+<view class="option-view" bind:tap="optionClick" data-code="{{code}}">
+	<view class="option-content-view">
+		<text class="option-title">{{title ? title : ''}}</text>
+		<view class="blank-view"/>
+		<block wx:if="{{showMessage}}">
+			<text class="option-message">{{message ? message : ''}}</text>
+			<view class="blank-view"/>
+		</block>
+		<block wx:if="{{showDes}}">
+			<text class="option-des">{{des ? des : ''}}</text>
+		</block>
+		<image class="arrow-icon" src="{{arrowIcon}}" mode="scaleToFill"/>
+	</view>
+	<block wx:if="{{showBottom}}">
+		<view class="show-content-bottom"/>
+	</block>
+</view>

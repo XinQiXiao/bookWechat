@@ -1,0 +1,8 @@
+node_modules/
+npm-debug.log
+*._*
+.idea/
+package-lock.json
+.vscode/
+build/
+src/config/

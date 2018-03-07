@@ -1,0 +1,9 @@
+{
+	"navigationBarTitleText": "我的",
+	"navigationBarTextStyle": "white",
+	"navigationBarBackgroundColor": "#6f7de8",
+	"usingComponents": {
+		"scan-view": "../../../components/common/scan/scan",
+		"option-item": "../../../components/listItem/mineItem/mineItem"
+	}
+}

@@ -1,0 +1,4 @@
+<view class="search-container-view" bind:tap="searchClick">
+	<image src="{{searchIcon}}" class="search-icon" mode="scaleToFill"/>
+	<text class="search-text">{{searchText ? searchText : ''}}</text>
+</view>

@@ -1,0 +1,7 @@
+{
+	"navigationBarTitleText": "门店",
+	"usingComponents": {
+		"store-item": "../../../components/listItem/storeItem/storeItem",
+		"scan-view": "../../../components/common/scan/scan"
+	}
+}

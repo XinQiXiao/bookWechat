@@ -1,0 +1,50 @@
+
+.store-view {
+	background-color:#fff;
+	padding: 30rpx 30rpx; 
+	margin-top: 2rpx;
+	margin-bottom: 18rpx;
+	display: flex;
+	flex-direction: column;
+}
+
+.store-name {
+	color: #333;
+	font-size: 30rpx;
+	font-weight: bolder;
+}
+
+/* middle-view */
+.middle-view {
+	margin-top: 15rpx;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.store-address {
+	max-width: 490rpx;
+	color: #999;
+	font-size: 24rpx;
+	line-height: 36rpx;
+}
+.location-view {
+	margin-left: 20rpx;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.location-icon {
+	width: 24rpx;
+	height: 24rpx;
+}
+.distance-text {
+	margin-left: 20rpx;
+	color: #6f7de8;
+	font-size: 22rpx;
+}
+
+.open-time {
+	margin-top: 10rpx;
+	color: #999;
+	font-size: 24rpx;
+}

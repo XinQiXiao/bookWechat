@@ -1,0 +1,6 @@
+<view class="container container-flex container-bg">
+	<block wx:for="{{stores}}" wx:key="{{item.id}}">
+		<store-item item="{{item}}" showDistance="{{showDistance}}" bind:itemClick="itemTouch"/>
+	</block>
+</view>
+<scan-view bind:scanClick="scanTouch" />

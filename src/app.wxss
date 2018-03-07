@@ -1,0 +1,14 @@
+/* ---- common style ---- */
+/* common style */
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+}
+.container-flex {
+  display: flex;
+  flex-direction: column;
+}
+.container-bg {
+  background-color: #f2f1f7;
+}

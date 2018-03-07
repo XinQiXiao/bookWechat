@@ -1,0 +1,4 @@
+<view class="container container-flex container-bg">
+	<search-btn searchText="搜索书名、作者" bind:searchTouch="searchTap"/>
+</view>
+<scan-view bind:scanClick="scanTouch" />

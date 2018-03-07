@@ -1,0 +1,16 @@
+
+.scan-view {
+	position: fixed;
+	z-index: 50;
+	bottom: 50rpx;
+	right: 40rpx;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.scan-icon {
+	width: 158rpx;
+	height: 158rpx;
+}

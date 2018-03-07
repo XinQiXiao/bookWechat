@@ -1,0 +1,3 @@
+<view class="scan-view" bind:tap="scanTap">
+	<image src="{{scanIcon}}" mode="scaleToFill" class="scan-icon"/>
+</view>

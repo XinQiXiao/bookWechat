@@ -1,0 +1,7 @@
+{
+	"navigationBarTitleText": "小牛绘本",
+	"usingComponents": {
+		"scan-view": "../../../components/common/scan/scan",
+		"search-btn": "../../../components/search/searchBtn/searchBtn"
+	}
+}

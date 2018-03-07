@@ -1,0 +1,28 @@
+<view class="container container-flex container-bg">
+	<view class="header-view">
+		<image src="{{headerUrl ? headerUrl : defaultHeaderUrl}}" mode="aspectFill" class="header-icon"/>
+		<text class="user-name-text">{{userName ? userName : ''}}</text>
+	</view>
+	<option-item title="我的押金" code="{{cash}}"
+		showDes="{{true}}" des="未支付" bind:optionTap="optionTouch" 
+	/>
+	<option-item title="购买畅读服务" code="{{vip}}" 
+		bind:optionTap="optionTouch"
+	/>
+	<option-item title="代金券" code="{{coupon}}"
+		showDes="{{true}}" des="1张可用" bind:optionTap="optionTouch"
+	/>
+	<option-item title="邀请好友得30天畅读" code="{{invite}}"
+		bind:optionTap="optionTouch"
+	/>
+	<option-item title="我的绘本" code="{{history}}"
+		bind:optionTap="optionTouch"
+	/>
+	<option-item title="联系我们" showMessage="{{true}}" message="{{serviceTel}}" code="{{service}}"
+		bind:optionTap="optionTouch"
+	/>
+	<option-item title="清除缓存" code="{{storage}}"
+		bind:optionTap="optionTouch" showBottom="{{false}}"
+	/>
+</view>
+<scan-view bind:scanClick="scanTouch" />

@@ -1,0 +1,49 @@
+
+.option-view {
+	background-color: #fff;
+	height: 100rpx;
+	display: flex;
+	flex-direction: column;
+}
+
+.option-content-view {
+	flex: 1;
+	margin-left: 40rpx;
+	padding-right: 40rpx;
+	height: 100rpx;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.show-content-bottom {
+	margin-left: 40rpx;
+	width: 710rpx;
+	height: 2rpx;
+	background-color: #e0e0e0;
+}
+
+.option-title {
+	color: #333;
+	font-size: 30rpx;
+}
+.option-message {
+	color: #333;
+	font-size: 30rpx;
+	font-weight: bolder;
+}
+
+.option-des {
+	color: #888;
+	font-size: 26rpx;
+}
+
+.arrow-icon {
+	margin-left: 10rpx;
+	width: 14rpx;
+	height: 24rpx;
+}
+
+.blank-view {
+	flex: 1;
+}

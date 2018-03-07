@@ -1,0 +1,13 @@
+<view class="store-view" bindtap="itemTap" data-item="{{item}}">
+	<text class="store-name">{{item.name ? item.name : ''}}</text>
+	<view class="middle-view">
+		<text class="store-address">{{item.address ? item.address : ''}}</text>
+		<block wx:if="{{showDistance}}">
+			<view class="location-view">
+				<image src="{{locationIcon}}" mode="scaleToFill" class="location-icon"/>
+				<text class="distance-text">{{item.distance ? item.distance : ''}}</text>
+			</view>
+		</block>
+	</view>
+	<text class="open-time">{{item.open_hours ? item.open_hours : ''}}</text>
+</view>
